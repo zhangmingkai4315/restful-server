@@ -60,7 +60,7 @@ router.put('/collections/:collectionName/:id', function(req, res, next) {
       res.send({msg:'error',result:err})
     }
     else{
-        if(result.result.ok===1&&result.result.nModified===1)
+        if(result.result.ok===1)
           {res.send({msg:'success'});}
         else{
           res.send({msg:'error',info:'Unknown error'});
