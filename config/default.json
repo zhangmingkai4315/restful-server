@@ -1,0 +1,17 @@
+{
+  "test": {
+    "dbConfig": {
+      "host": "218.241.108.97",
+      "port":27017,
+      "dbName": "TestApi"
+    }
+  },
+  "api-server": {
+    "dbConfig": {
+      "host": "218.241.108.97",
+      "port":27017,
+      "dbName": "api-server"
+    },
+    "max-return-docs":10
+  }
+}

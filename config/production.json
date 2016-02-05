@@ -1,0 +1,8 @@
+{
+  "production": {
+    "dbConfig": {
+      "host": "production-server",
+      "port":27017
+    }
+  }
+}
