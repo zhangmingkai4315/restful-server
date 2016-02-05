@@ -1,14 +1,14 @@
 {
   "test": {
     "dbConfig": {
-      "host": "218.241.108.97",
+      "host": "localhost",
       "port":27017,
       "dbName": "TestApi"
     }
   },
   "api-server": {
     "dbConfig": {
-      "host": "218.241.108.97",
+      "host": "localhost",
       "port":27017,
       "dbName": "api-server"
     },
